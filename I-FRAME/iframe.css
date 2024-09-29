@@ -1,0 +1,18 @@
+#border{
+    box-shadow: 5px 5px 10px rgb(168, 168, 166);
+}
+#flexx{
+    flex-wrap: wrap;
+}
+
+#rounded{
+    align-items: center;
+    padding-top: 20px;
+    border-radius: 50%;
+}
+@media (max-width: 470px){
+    #rounded{
+        padding: 25px;
+        border-radius: 50%;
+    }
+}

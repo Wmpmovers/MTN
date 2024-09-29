@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="Image/images-removebg-preview (2).png">
+    <link rel="icon" href="/Images/New logo.JPG" type="image/icon type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="enterprise.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body style="font-family: 'Roboto', sans-serif;">
+ <!--------------FIRST NAVBAR -->
+ <div class="fixed-top">
+  <nav class="nav ms-5" id="under">
+      <a class="nav-link fw-bold ms-5 text-white" href="#">PERSONAL</a>
+      <a class="nav-link fw-bold text-white" href="#">BUSINESS</a>
+      <a class="nav-link fw-bold text-white" href="#">PLAY</a>
+      <a class="nav-link fw-bold text-white" href="#">INVESTORS</a>
+      <a class="nav-link fw-bold text-white" href="#">FOUNDATIONS</a>
+  </nav>
+  <!--------------SECOND NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-warning p-3 rounded" id="shadow1">
+  <div class="container-fluid">
+    <a class="nav-link" href="../index.html"><img src="../Image/images-removebg-preview (2).png" style="width: 5rem;" alt="Mtn logo"></a>
+    
+    <!-----------------OFF CANVAS----------->
+    <div class="nav-item">
+      <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" id="menuOff"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="black"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></button>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-----------------ABOUT ON HOVER---->
+      <div class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               About Us
+              </a>
+              <div class="card me-5 pt-3 pb-5 border-0"  id="dropdown-content">
+                <div class="d-flex justify-content-around">
+                  <div class="card border-0" style="width: 30rem;" id="tran">
+                      <a class="nav-link text-dark" href="../ABOUT/about.html" id="aGrowth">About Us</a>
+                      <div class="dropdown">
+                        <a class="btn text-dark border-0 mt-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                          Growth Platform <svg class="dropSVGA" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="M480-360 280-560h400L480-360Z"/></svg>
+                        </a>
+                        <ul class="dropdown-menu bg-warning shadow" id="drpDown">
+                          <li><a class="dropdown-item" href="../FINTECH SOLUTION/fintech.html">Fintech Solution</a></li>
+                          <li><a class="dropdown-item" href="../DIGITAL SERVICE/digital.html">Digital Service</a></li>
+                          <li><a class="dropdown-item" href="../ENTERPRISE/enterprise.html">Enterprise</a></li>
+                          <li><a class="dropdown-item" href="../NETWORK/network.html">Network as a service</a></li>
+                          <li><a class="dropdown-item" href="../API MARKETING/marketing.html">Api Marketplace</a></li>
+                        </ul>
+                      </div>
+                      
+                      <div class="dropdown">
+                        <a class="btn text-dark border-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="footerDropdown">
+                          Governance <svg class="dropSVGB" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="M480-360 280-560h400L480-360Z"/></svg>
+                        </a>
+                      
+                        <ul class="dropdown-menu bg-warning shadow" id="drpDown">
+                          <li><a class="dropdown-item" href="#">Governace Structure</a></li>
+                          <li><a class="dropdown-item" href="#">Board of directors</a></li>
+                          <li><a class="dropdown-item" href="#">Executive Committee</a></li>
+                        </ul>
+                      </div>
+                      <a class="nav-link mt-3 w-50 text-dark" href="#" id="aGrowth">30years of MTN</a>
+                      <a class="nav-link mt-3 w-50 text-dark" href="#" id="aGrowth">Supply Chain</a>
+                  </div>
+                  <div class="card rounded-5">
+                    <div class="image-container rounded-5">
+                       <img src="../Image/Inner image.jpg" id="inner-image" style="width: 30rem;" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-----------------SUSTAINERBILITY ON HOVER---->
+          <div class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="aboutBorder">
+                 Sustainability
+                </a>
+                <div class="card me-5 pt-3 pb-5 border-0"  id="dropdown-content2">
+                  <div class="d-flex justify-content-around mt-5">
+                    <div class="card border-0" style="width: 30rem;" id="tran2">
+                        <a class="nav-link w-50 text-dark" href="../SUSTAIN OVERVIEW/sustain.html" id="aSustain">Sustainability Overview</a>
+                        <div class="dropdown">
+                          <a class="btn text-dark border-0 mt-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                            Doing it for Planet <svg class="dropSVGA1" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="M480-360 280-560h400L480-360Z"/></svg>
+                          </a>
+                          <ul class="dropdown-menu bg-warning shadow" id="drpDown">
+                            <li><a class="dropdown-item" href="#">Overview</a></li>
+                            <li><a class="dropdown-item" href="#">Emissions Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Project Zero</a></li>
+                            <li><a class="dropdown-item" href="#">Suppliers Collaboration</a></li>
+                            <li><a class="dropdown-item" href="#">Climate Governace</a></li>
+                            <li><a class="dropdown-item" href="#">Pachi Panda Challenge</a></li>
+                          </ul>
+                        </div>
+                        <div class="dropdown">
+                          <a class="btn text-dark border-0 mt-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                            Doing it Right <svg class="dropSVGA3" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="M480-360 280-560h400L480-360Z"/></svg>
+                          </a>
+                          <ul class="dropdown-menu bg-warning shadow" id="drpDown">
+                            <li><a class="dropdown-item" href="#">Overview</a></li>
+                            <li><a class="dropdown-item" href="#">Human Right</a></li>
+                            <li><a class="dropdown-item" href="#">Ethics</a></li>
+                            <li><a class="dropdown-item" href="#">Risk Management</a></li>
+                          </ul>
+                        </div>
+                        <a class="nav-link mt-3 w-50 text-dark" href="#" id="aSustain">Doing it for growth</a>
+                        <div class="dropdown">
+                          <a class="btn text-dark border-0 mt-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                            Report <svg class="dropSVGA4" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="M480-360 280-560h400L480-360Z"/></svg>
+                          </a>
+                          <ul class="dropdown-menu bg-warning shadow" id="drpDown">
+                            <li><a class="dropdown-item" href="#">Overview</a></li>
+                            <li><a class="dropdown-item" href="#">Sustainability Report<a></li>
+                            <li><a class="dropdown-item" href="#">Climate & CDP report</a></li>
+                            <li><a class="dropdown-item" href="#">Trasparency Report</a></li>
+                            <li><a class="dropdown-item" href="#">Additional report</a></li>
+                          </ul>
+                        </div>
+                        <div class="dropdown">
+                          <a class="btn text-dark border-0 mt-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                            Possitions & Certificate <svg class="dropSVGA5" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="M480-360 280-560h400L480-360Z"/></svg>
+                          </a>
+                          <ul class="dropdown-menu bg-warning shadow" id="drpDown">
+                            <li><a class="dropdown-item" href="#">Overview</a></li>
+                            <li><a class="dropdown-item" href="#">Doing for Planet</a></li>
+                            <li><a class="dropdown-item" href="#">Doing for people</a></li>
+                            <li><a class="dropdown-item" href="#">Doing it right</a></li>
+                            <li><a class="dropdown-item" href="#">Certificate</a></li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="card rounded-5">
+                      <div class="image-container rounded-5">
+                        <img src="../Image/Inner image.jpg" id="inner-image" style="width: 30rem;" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          <!-----------------INVESTORS ON HOVER---->
+          <div class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="aboutBorder">
+                 Investors
+                </a>
+                <div class="card me-5 pt-3 pb-5 border-0"  id="dropdown-content3">
+                  <div class="d-flex justify-content-around mt-5">
+                    <div class="card border-0" style="width: 30rem;" id="tran3">
+                        <a class="nav-link w-50 text-dark" href="#" id="aInvestor">Investors Overview</a>
+                        <div class="dropdown">
+                          <a class="btn text-dark border-0 mt-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                            Finacial Report <svg class="dropSVGA6" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="M480-360 280-560h400L480-360Z"/></svg>
+                          </a>
+                          <ul class="dropdown-menu bg-warning shadow" id="drpDown">
+                            <li><a class="dropdown-item" href="#">Annual Result</a></li>
+                            <li><a class="dropdown-item" href="#">Quaterly Result</a></li>
+                            <li><a class="dropdown-item" href="#">Interim Result</a></li>
+                          </ul>
+                        </div>
+                        <div class="dropdown">
+                          <a class="btn text-dark border-0 mt-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                            Annual Report <svg class="dropSVGA7" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="M480-360 280-560h400L480-360Z"/></svg>
+                          </a>
+                          <ul class="dropdown-menu bg-warning shadow" id="drpDown">
+                            <li><a class="dropdown-item" href="#">FY 2023 Reporting Suite</a></li>
+                            <li><a class="dropdown-item" href="#">Intergrated Annual Report</a></li>
+                          </ul>
+                        </div>
+                        <div class="dropdown">
+                          <a class="btn text-dark border-0 mt-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                            Shareholders <svg class="dropSVGA8" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="M480-360 280-560h400L480-360Z"/></svg>
+                          </a>
+                          <ul class="dropdown-menu bg-warning shadow" id="drpDown">
+                            <li><a class="dropdown-item" href="#">Shareholders Overview</a></li>
+                            <li><a class="dropdown-item" href="#">ODR Holders information</a></li>
+                            <li><a class="dropdown-item" href="#">AGM</a></li>
+                            <li><a class="dropdown-item" href="#">Dept & Funding Updates</a></li>
+                            <li><a class="dropdown-item" href="#">B-BBEE Certificate</a></li>
+                            <li><a class="dropdown-item" href="#">Presentation & transcript</a></li>
+                          </ul>
+                        </div>
+                        <a class="nav-link mt-3 w-50 text-dark" href="#" id="aInvestor">Opco Investors</a>
+                        <a class="nav-link mt-3 w-50 text-dark" href="#" id="aInvestor">SENS</a>
+                        <div class="dropdown">
+                          <a class="btn text-dark border-0 mt-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                            Capital Market Day <svg class="dropSVGA5" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="M480-360 280-560h400L480-360Z"/></svg>
+                          </a>
+                          <ul class="dropdown-menu bg-warning shadow" id="drpDown">
+                            <li><a class="dropdown-item" href="#">Capital Market Day 2021</a></li>
+                            <li><a class="dropdown-item" href="#">Capital Market Day 2023</a></li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="card rounded-5">
+                      <div class="image-container rounded-5">
+                        <img src="../Image/Inner image.jpg" id="inner-image" style="width: 30rem;" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+        <!-----------------NEWS ON HOVER---->
+        <div class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="aboutBorder2">
+               News
+              </a>
+              <div class="card me-5 pt-3 pb-5 border-0"  id="dropdown-content4">
+                <div class="d-flex justify-content-around mt-5">
+                  <div class="card border-0" style="width: 30rem;" id="tran4">
+                    <a class="nav-link w-50 text-dark" href="#" id="aNews">Overview</a>
+                    <a class="nav-link mt-3 w-50 text-dark" href="#" id="aNews">Media Release</a>
+                    <a class="nav-link mt-3 w-50 text-dark" href="#" id="aNews">Campaigns</a>
+                    <a class="nav-link mt-3 w-50 text-dark" href="#" id="aNews">Sportlight stories</a>
+                    <a class="nav-link mt-3 w-50 text-dark" href="#" id="aNews">Events</a>
+                  </div>
+                  <div class="card rounded-5">
+                    <div class="image-container rounded-5">
+                      <img src="../Image/Inner image.jpg" id="inner-image" style="width: 30rem;" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+          <!----------------PEOPLE & CULTURE ON HOVER -->
+          <div class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="aboutBorder2">
+                 People & Culture
+                </a>
+                <div class="card me-5 pt-3 pb-5 border-0"  id="dropdown-content5">
+                  <div class="d-flex justify-content-around mt-5">
+                    <div class="card border-0" style="width: 30rem;" id="tran5">
+                      <a class="nav-link w-50 text-dark" href="#" id="aPeople">Overview</a>
+                      <a class="nav-link mt-3 w-50 text-dark" href="#" id="aPeople">We live Inspired</a>
+                      <a class="nav-link mt-3 w-50 text-dark" href="#" id="aPeople">We live Yello</a>
+                      <a class="nav-link mt-3 w-50 text-dark" href="#" id="aPeople">Join Our Yello Family</a>
+                      <a class="nav-link mt-3 w-50 text-dark" href="#" id="aPeople">Our Inspiration</a>
+                      <a class="nav-link mt-3 w-50 text-dark" href="#" id="aPeople">Mtn Group People Report</a>
+                    </div>
+                    <div class="card rounded-5">
+                      <div class="image-container rounded-5">
+                        <img src="../Image/Inner image.jpg" id="inner-image" style="width: 30rem;" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+      </div>
+      <!-----------------SEARCH ON HOVER---->
+      <div class="d-flex justify-content-around" id="menuSearch">
+        <div class="search ">
+          <a href="#"><svg class="mt-2" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg></a>
+          <div class="searchIcon">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <svg class="mt-2" xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#5f6368"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+            </form>
+          </div>
+        </div>
+        <!-----------------WORLD-ICON ON HOVER---->
+        <div class="navbar-nav me-auto mb-2 mb-lg-0" id="world">
+          <div class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="aboutBorder1">
+                <svg class="" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-80q-82 0-155-31.5t-127.5-86Q143-252 111.5-325T80-480q0-83 31.5-155.5t86-127Q252-817 325-848.5T480-880q83 0 155.5 31.5t127 86q54.5 54.5 86 127T880-480q0 82-31.5 155t-86 127.5q-54.5 54.5-127 86T480-80Zm0-82q26-36 45-75t31-83H404q12 44 31 83t45 75Zm-104-16q-18-33-31.5-68.5T322-320H204q29 50 72.5 87t99.5 55Zm208 0q56-18 99.5-55t72.5-87H638q-9 38-22.5 73.5T584-178ZM170-400h136q-3-20-4.5-39.5T300-480q0-21 1.5-40.5T306-560H170q-5 20-7.5 39.5T160-480q0 21 2.5 40.5T170-400Zm216 0h188q3-20 4.5-39.5T580-480q0-21-1.5-40.5T574-560H386q-3 20-4.5 39.5T380-480q0 21 1.5 40.5T386-400Zm268 0h136q5-20 7.5-39.5T800-480q0-21-2.5-40.5T790-560H654q3 20 4.5 39.5T660-480q0 21-1.5 40.5T654-400Zm-16-240h118q-29-50-72.5-87T584-782q18 33 31.5 68.5T638-640Zm-234 0h152q-12-44-31-83t-45-75q-26 36-45 75t-31 83Zm-200 0h118q9-38 22.5-73.5T376-782q-56 18-99.5 55T204-640Z"/></svg>
+              </a>
+              <div class="card me-5 pt-3 pb-5 border-0"  id="dropdown-content6">
+                <div class="d-flex justify-content-around mt-3 p-5">
+                  <div class="card border-0" style="width: 30rem;" id="tran">
+                    <h4>Africa</h4>
+                    <a class="nav-link w-50" href="#">Benin</a>
+                    <a class="nav-link mt-3 w-50" href="#">Coted'ioviur</a>
+                    <a class="nav-link mt-3 w-50" href="#">Guinea Conakry</a>
+                    <a class="nav-link mt-3 w-50" href="#">South Africa</a>
+                    <a class="nav-link mt-3 w-50" href="#">Zambia</a>
+                  </div>
+                  <div class="card border-0 mt-4" style="width: 30rem;" id="tran">
+                    <a class="nav-link w-50" href="#">Botswana</a>
+                    <a class="nav-link mt-3 w-50" href="#">eSwatini</a>
+                    <a class="nav-link mt-3 w-50" href="#">Liberia</a>
+                    <a class="nav-link mt-3 w-50" href="#">South Sudan</a>
+                  </div>
+                  <div class="card border-0 mt-4" style="width: 30rem;" id="tran">
+                    <a class="nav-link w-50" href="#">Cameroon</a>
+                    <a class="nav-link mt-3 w-50" href="#">Ghana</a>
+                    <a class="nav-link mt-3 w-50" href="#">Nigeria</a>
+                    <a class="nav-link mt-3 w-50" href="#">Sudan</a>
+                  </div>
+                  <div class="card border-0 mt-4" style="width: 30rem;" id="tran">
+                    <a class="nav-link w-50" href="#">Congo Brazzavile</a>
+                    <a class="nav-link mt-3 w-50" href="#">Guinea Bissau</a>
+                    <a class="nav-link mt-3 w-50" href="#">Riwanda</a>
+                    <a class="nav-link mt-3 w-50" href="#">Uganda</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+      
+      </div>
+    </div>
+  </div>
+</nav>
+</div> 
+
+
+<!-----------------MOBILE RESOLUTION NAVBAR-->
+<div class="offcanvas offcanvas-start shadow" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+<div class="offcanvas-header">
+  <a class="nav-link" href="../index.html"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="black"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg></a>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div class="card border-0" style="height: 50rem;">
+<div class="dropdown">
+  <button class="btn btn-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+  About <svg class="menuDrop1" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="M480-360 280-560h400L480-360Z"/></svg>
+  </button>
+  <ul class="dropdown-menu border-0 shadow" style="width: 20rem;">
+    <div class="card border-0" style="height: 15rem;">
+      <li><a class="dropdown-item" href="../ABOUT/about.html">About Us</a></li>
+      <li><a class="dropdown-item mt-2" href="../FINTECH SOLUTION/fintech.html">Fintech Solution</a></li>
+      <li><a class="dropdown-item mt-2" href="../DIGITAL SERVICE/digital.html">Digital Service</a></li>
+      <li><a class="dropdown-item mt-2" href="../ENTERPRISE/enterprise.html">Enterprise</a></li>
+      <li><a class="dropdown-item mt-2" href="../NETWORK/network.html">Network as a service</a></li>
+      <li><a class="dropdown-item mt-2" href="../API MARKETING/marketing.html">Api Marketplace</a></li>
+    </div>
+  </ul>
+</div>
+<div class="dropdown mt-4">
+  <button class="btn btn-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+  Sustainerbility <svg class="menuDrop2" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="M480-360 280-560h400L480-360Z"/></svg>
+  </button>
+  <ul class="dropdown-menu border-0 shadow" style="width: 20rem;">
+    <div class="card border-0" style="height: 15rem;">
+      <li><a class="dropdown-item" href="../SUSTAIN OVERVIEW/sustain.html">Sustainability Overview</a></li>
+      <li><a class="dropdown-item mt-2" href="#">Emissions Profile</a></li>
+      <li><a class="dropdown-item mt-2" href="#">Project Zero</a></li>
+      <li><a class="dropdown-item mt-2" href="#">Suppliers Collaboration</a></li>
+      <li><a class="dropdown-item mt-2" href="#">Climate Governace</a></li>
+      <li><a class="dropdown-item mt-2" href="#">Pachi Panda Challenge</a></li>
+    </div>
+  </ul>
+</div>
+<div class="dropdown mt-4">
+  <button class="btn btn-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+  Investors <svg class="menuDrop3" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="M480-360 280-560h400L480-360Z"/></svg>
+  </button>
+  <ul class="dropdown-menu border-0 shadow" style="width: 20rem;">
+    <div class="card border-0" style="height: 15rem;">
+      <li><a class="dropdown-item" href="#">Investors Overview</a></li>
+      <li><a class="dropdown-item mt-2" href="#">Annual Result</a></li>
+      <li><a class="dropdown-item mt-2" href="#">Quaterly Result</a></li>
+      <li><a class="dropdown-item mt-2" href="#">Interim Result</a></li>
+    </div>
+  </ul>
+</div>
+<div class="dropdown mt-4">
+  <button class="btn btn-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+  News <svg class="menuDrop4" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="M480-360 280-560h400L480-360Z"/></svg>
+  </button>
+  <ul class="dropdown-menu border-0 shadow" style="width: 20rem;">
+    <div class="card border-0" style="height: 15rem;">
+      <li><a class="dropdown-item" href="#">Overview</a></li>
+      <li><a class="dropdown-item mt-2" href="#">Media Release</a></li>
+      <li><a class="dropdown-item mt-2" href="#">Sportlight Stories</a></li>
+    </div>
+  </ul>
+</div>
+<div class="dropdown mt-4">
+  <button class="btn btn-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+  People & Culture <svg class="menuDrop5" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="M480-360 280-560h400L480-360Z"/></svg>
+  </button>
+  <ul class="dropdown-menu border-0 shadow" style="width: 20rem;">
+    <div class="card border-0" style="height: 20rem;">
+      <li><a class="dropdown-item" href="#">Overview</a></li>
+      <li><a class="dropdown-item mt-2" href="#">We live to inspired</a></li>
+      <li><a class="dropdown-item mt-2" href="#">We live Y'ello</a></li>
+      <li><a class="dropdown-item mt-2" href="#">Join our Y'ello Family</a></li>
+      <li><a class="dropdown-item mt-2" href="#">Our Inspiration</a></li>
+      <li><a class="dropdown-item mt-2" href="#">MTN group People Report</a></li>
+    </div>
+  </ul>
+</div>
+</div>
+</div>
+</div>   
+
+    <!-------------------FIRST CONTAINER ENTERPRISE-------- -->
+    <div class="d-flex justify-content-start" id="firstFintech">
+        <div class="card border-0" style="width: 25rem;" id="firstFinCard">
+            <p> <b>About</b> our growth platform</p>
+            <h1 class="finSo">Enterprise Services </h1>
+            <p>We address the communication and converged ICT needs of African businesses, with the most advanced network on the continent, connecting the world.</p>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center mt-5" id="digital">
+        <div class="container w-100 text-center">
+          <h1>Business Done Better</h1>
+        <p class="fw-normal">Businesses operating in the modern context should always strive to improve productivity.
+            With access to our ICT solutions which include Managed Network Services, Cloud, Unified
+            Communications, Internet of Things and Security as A Service, nothing should get in the
+            way of getting business done. We’re here to help grow and scale your Enterprise.</p>
+        </div>
+    </div>
+
+    <!-------------------OUR STRATEGY----------------->
+  <div class="card border-0" id="flexOff">
+    <div class="d-flex justify-content-center mt-3">
+      <div class="card p-3 ms-3 me-3 border-0" id="align" >
+        <svg xmlns="http://www.w3.org/2000/svg" height="70px" viewBox="0 -960 960 960" width="70px" fill="black"><path d="M40-160v-112q0-34 17.5-62.5T104-378q62-31 126-46.5T360-440q66 0 130 15.5T616-378q29 15 46.5 43.5T680-272v112H40Zm720 0v-120q0-44-24.5-84.5T666-434q51 6 96 20.5t84 35.5q36 20 55 44.5t19 53.5v120H760ZM360-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm400-160q0 66-47 113t-113 47q-11 0-28-2.5t-28-5.5q27-32 41.5-71t14.5-81q0-42-14.5-81T544-792q14-5 28-6.5t28-1.5q66 0 113 47t47 113ZM120-240h480v-32q0-11-5.5-20T580-306q-54-27-109-40.5T360-360q-56 0-111 13.5T140-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T440-640q0-33-23.5-56.5T360-720q-33 0-56.5 23.5T280-640q0 33 23.5 56.5T360-560Zm0 320Zm0-400Z"/></svg>
+        <a class="nav-link mt-3 w-50 text-center fw-bold" href="#">Build the largest and most reliable platform</a>
+      </div>
+      <div class="card p-3 ms-3 me-3 border-0" id="align">
+        <svg xmlns="http://www.w3.org/2000/svg" height="70px" viewBox="0 -960 960 960" width="70px" fill="black"><path d="M280-880h400v314q0 23-10 41t-28 29l-142 84 28 92h152l-124 88 48 152-124-94-124 94 48-152-124-88h152l28-92-142-84q-18-11-28-29t-10-41v-314Zm80 80v234l80 48v-282h-80Zm240 0h-80v282l80-48v-234ZM480-647Zm-40-12Zm80 0Z"/></svg>
+        <a class="nav-link mt-3 w-50 text-center fw-bold" href="#">Drive industry leading connectivity operation</a>
+      </div>
+      <div class="card p-3 ms-3 me-3 border-0" id="align">
+        <svg xmlns="http://www.w3.org/2000/svg" height="70px" viewBox="0 -960 960 960" width="70px" fill="black"><path d="M760-400v-260L560-800 360-660v60h-80v-100l280-200 280 200v300h-80ZM560-800Zm20 160h40v-40h-40v40Zm-80 0h40v-40h-40v40Zm80 80h40v-40h-40v40Zm-80 0h40v-40h-40v40ZM280-220l278 76 238-74q-5-9-14.5-15.5T760-240H558q-27 0-43-2t-33-8l-93-31 22-78 81 27q17 5 40 8t68 4q0-11-6.5-21T578-354l-234-86h-64v220ZM40-80v-440h304q7 0 14 1.5t13 3.5l235 87q33 12 53.5 42t20.5 66h80q50 0 85 33t35 87v40L560-60l-280-78v58H40Zm80-80h80v-280h-80v280Z"/></svg>
+        <a class="nav-link mt-3 w-75 text-center fw-bold" href="#">Create shared value</a>
+      </div>
+      <div class="card p-3 ms-3 me-3 border-0" id="align">
+        <svg xmlns="http://www.w3.org/2000/svg" height="70px" viewBox="0 -960 960 960" width="70px" fill="black"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h240l80 80h320q33 0 56.5 23.5T880-640H447l-80-80H160v480l96-320h684L837-217q-8 26-29.5 41.5T760-160H160Zm84-80h516l72-240H316l-72 240Zm0 0 72-240-72 240Zm-84-400v-80 80Z"/></svg>
+        <a class="nav-link mt-3 w-75 text-center fw-bold" href="#">Accelarate Portfolio Trasformation</a>
+      </div>
+    </div>
+  </div>
+
+  <!---------------------------OUR STRATEGY RESOLUTION------------------>
+ <div id="carouselExampleInterval" class="carouOff carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner" id="growthReso">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <div class="d-flex justify-content-evenly">
+        <div class="card p-3 ms-3 me-3 border-0" id="align" >
+          <svg xmlns="http://www.w3.org/2000/svg" height="120px" viewBox="0 -960 960 960" width="120px" fill="black"><path d="M40-160v-112q0-34 17.5-62.5T104-378q62-31 126-46.5T360-440q66 0 130 15.5T616-378q29 15 46.5 43.5T680-272v112H40Zm720 0v-120q0-44-24.5-84.5T666-434q51 6 96 20.5t84 35.5q36 20 55 44.5t19 53.5v120H760ZM360-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm400-160q0 66-47 113t-113 47q-11 0-28-2.5t-28-5.5q27-32 41.5-71t14.5-81q0-42-14.5-81T544-792q14-5 28-6.5t28-1.5q66 0 113 47t47 113ZM120-240h480v-32q0-11-5.5-20T580-306q-54-27-109-40.5T360-360q-56 0-111 13.5T140-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T440-640q0-33-23.5-56.5T360-720q-33 0-56.5 23.5T280-640q0 33 23.5 56.5T360-560Zm0 320Zm0-400Z"/></svg>
+          <a class="nav-link mt-3 w-50 text-center fw-bold" href="#">Build the largest and most reliable platform</a>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <div class="d-flex justify-content-evenly">
+        <div class="card p-3 ms-3 me-3 border-0" id="align">
+          <svg xmlns="http://www.w3.org/2000/svg" height="120px" viewBox="0 -960 960 960" width="120px" fill="black"><path d="M280-880h400v314q0 23-10 41t-28 29l-142 84 28 92h152l-124 88 48 152-124-94-124 94 48-152-124-88h152l28-92-142-84q-18-11-28-29t-10-41v-314Zm80 80v234l80 48v-282h-80Zm240 0h-80v282l80-48v-234ZM480-647Zm-40-12Zm80 0Z"/></svg>
+          <a class="nav-link mt-3 w-50 text-center fw-bold" href="#">Drive industry leading connectivity operation</a>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="d-flex justify-content-evenly">
+        <div class="card p-3 ms-3 me-3 border-0" id="align">
+          <svg xmlns="http://www.w3.org/2000/svg" height="120px" viewBox="0 -960 960 960" width="120px" fill="black"><path d="M760-400v-260L560-800 360-660v60h-80v-100l280-200 280 200v300h-80ZM560-800Zm20 160h40v-40h-40v40Zm-80 0h40v-40h-40v40Zm80 80h40v-40h-40v40Zm-80 0h40v-40h-40v40ZM280-220l278 76 238-74q-5-9-14.5-15.5T760-240H558q-27 0-43-2t-33-8l-93-31 22-78 81 27q17 5 40 8t68 4q0-11-6.5-21T578-354l-234-86h-64v220ZM40-80v-440h304q7 0 14 1.5t13 3.5l235 87q33 12 53.5 42t20.5 66h80q50 0 85 33t35 87v40L560-60l-280-78v58H40Zm80-80h80v-280h-80v280Z"/></svg>
+          <a class="nav-link mt-3 w-75 text-center fw-bold" href="#">Create shared value</a>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="d-flex justify-content-evenly">
+        <div class="card p-3 ms-3 me-3 border-0" id="align">
+          <svg xmlns="http://www.w3.org/2000/svg" height="120px" viewBox="0 -960 960 960" width="120px" fill="black"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h240l80 80h320q33 0 56.5 23.5T880-640H447l-80-80H160v480l96-320h684L837-217q-8 26-29.5 41.5T760-160H160Zm84-80h516l72-240H316l-72 240Zm0 0 72-240-72 240Zm-84-400v-80 80Z"/></svg>
+          <a class="nav-link mt-3 w-75 text-center fw-bold" href="#">Accelarate Portfolio Trasformation</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev text-dark" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon bg-dark rounded-circle " aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="container-fluid text-center mt-5" id="digital">
+    <div class="container w-75">
+      <h1>Related News</h1>
+    </div>
+  </div>
+
+  <!------------------MTN RECOGNICE---------- -->
+<div class="container-fluid" id="mtnRegOff" >
+    <div class="d-flex justify-content-around mt-5 " id="d-flex">
+      <div class="card border-0" style="width: 40rem;">
+        <div class="image-container">
+          <div class="card p-5 text-center w-100" id="treeImag">
+          <a class="nav-link mt-5" href="#"><img src="../Image/mtn-logoo.png" style="width: 10rem;" alt="Mtn logo"></a>
+          <h2 class="text-white  text-center fw-bold mt-5 mb-5"> MTN recognise for excellence in capital market stakeholder engagement</h2>
+        </div>
+        </div>
+        
+        <div class="d-flex justify-content-center">
+          <div class="card p-4 shadow" style="width: 28rem;" id="sportlight">
+            <p class="fw-bold"> Sportlight Story <span class=""> 13 sept 2024 </span>  </p>
+            <h5><a class="nav-link" href="#"> MTN recognise for excellence in capital market stakeholder engagement </a></h5>
+            <p class="mt-2"> MTN group is pleased to annouced that we have been...</p>
+            <a class="nav-link mt-2 fw-bold" href="#" id="readMore"> Read More... <span class="readMore"> <svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 -960 960 960" width="15px" fill="#5f6368"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg></span></a>
+          </div>
+        </div>
+      </div>
+  
+    <div class="card ms-4 border-0 mt-3" style="width: 40rem;">
+      <div class="card border-0">
+        <div class="d-flex" id="d-flex">
+          <div class="image-container rounded-5">
+             <img class="coperateImg" src="../Image/CEO-removebg-preview.png" style="width: 15rem;" alt="">
+          </div>
+          <div class="card p-3 shadow" style="width: 28rem; height: 15rem;" id="media">
+            <p class="fw-bold"> Media Releases <span class=""> 13 sept 2024 </span>  </p>
+            <h5><a class="nav-link" href="#"> Statement of the passing os Sifiso Dabengwa </a></h5>
+            <p class="mt-2"> MTN Group aknowledges with deep sadness the passing of difiso...</p>
+            <a class="nav-link mt-2 fw-bold" href="#"> Read More... <span class="readMore"> <svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 -960 960 960" width="15px" fill="#5f6368"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0 mt-4">
+        <div class="d-flex" id="d-flex">
+          <div class="image-container rounded-5">
+            <img class="coperateImg" src="../Image/king-cover.jpg" style="width: 15rem; height: 20rem;" alt="">
+          </div>
+          
+          <div class="card p-3 shadow" style="width: 28rem; height: 15rem;" id="media">
+            <p class="fw-bold"> Media Releases <span class=""> 13 sept 2024 </span>  </p>
+            <h5><a class="nav-link" href="#"> Empowering africa young eco-preneurs: The Pachipandas Challenge </a></h5>
+            <p class="mt-2"> How can we turn the tide against the devastated impacts...</p>
+            <a class="nav-link mt-2 fw-bold" href="#"> Read More... <span class="readMore"> <svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 -960 960 960" width="15px" fill="#5f6368"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+   <!------------MTN RECOGNICE RESOLUTION--------- -->
+   <div id="carouselExampleFade" class="firstcardOff carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="card border-0">
+          <div class="d-flex mt-5" id="d-flex">
+            <div class="image-container rounded-5">
+              <div class="card p-5 text-center" id="treeImag">
+              <a class="nav-link mt-5" href="#"><img src="../Image/mtn-logoo.png" style="width: 10rem;" alt="Mtn logo"></a>
+              <h2 class="text-white  text-center fw-bold mt-5 mb-5"> MTN recognise for excellence in capital market stakeholder engagement</h2>
+            </div>
+            </div>
+            
+            <div class="d-flex justify-content-center ms-5 w-100">
+              <div class="card p-3 shadow" style="width: 25rem; height: 15rem;" id="media">
+                <p class="fw-bold"> Media Releases <span class=""> 13 sept 2024 </span>  </p>
+                <h5><a class="nav-link" href="#"> Statement of the passing os Sifiso Dabengwa </a></h5>
+                <p class="mt-2"> MTN Group aknowledges with deep sadness the passing of difiso...</p>
+                <a class="nav-link mt-2 fw-bold" href="#"> Read More... <span class="readMore"> <svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 -960 960 960" width="15px" fill="#5f6368"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card border-0">
+          <div class="d-flex mt-5" id="d-flex">
+            <div class="image-container rounded-5">
+              <img class="coperateImg" src="../Image/CEO-removebg-preview.png" style="width: 29rem; height: 25rem;" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center ms-5 w-100">
+              <div class="card p-3 shadow" style="width: 25rem; height: 15rem;" id="media">
+                <p class="fw-bold"> Media Releases <span class=""> 13 sept 2024 </span>  </p>
+                <h5><a class="nav-link" href="#"> Empowering africa young eco-preneurs: The Pachipandas Challenge </a></h5>
+                <p class="mt-2"> How can we turn the tide against the devastated impacts...</p>
+                <a class="nav-link mt-2 fw-bold" href="#"> Read More... <span class="readMore"> <svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 -960 960 960" width="15px" fill="#5f6368"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card border-0">
+          <div class="d-flex mt-5" id="d-flex">
+            <div class="image-container rounded-5">
+              <img class="coperateImg" src="../Image/king-cover.jpg" style="width: 29rem; height: 25rem;" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center ms-5 w-100">
+              <div class="card p-3 shadow" style="width: 25rem; height: 15rem;" id="media">
+                <p class="fw-bold"> Media Releases <span class=""> 13 sept 2024 </span>  </p>
+                <h5><a class="nav-link" href="#"> Statement of the passing os Sifiso Dabengwa </a></h5>
+                <p class="mt-2"> MTN Group aknowledges with deep sadness the passing of difiso...</p>
+                <a class="nav-link mt-2 fw-bold" href="#"> Read More... <span class="readMore"> <svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 -960 960 960" width="15px" fill="#5f6368"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex justify-content-center">
+    <a class="nav-link mt-5 pt-2 pb-2 ps-4 pe-4" href="#" id="view">VIEW ALL NEWS</a>
+   </div>
+  
+   <div class="container-fluid text-center mt-5" id="digital1">
+      <div class="container w-100 text-center">
+        <h1>Our Growth Platform</h1>
+      </div>
+  </div>
+    <!-------------------OUR GROWTH----------------->
+    <div class="card border-0" id="flexOff">
+      <div class="d-flex justify-content-center mt-3">
+        <div class="card p-3 ms-3 me-3 border-0" id="align" >
+          <svg xmlns="http://www.w3.org/2000/svg" height="70px" viewBox="0 -960 960 960" width="70px" fill="rgb(51, 51, 158)"><path d="M360-120v-80H240v-80h80v-400h-80v-80h120v-80h80v80h80v-80h80v85q52 14 86 56.5t34 98.5q0 29-10 55.5T682-497q35 21 56.5 57t21.5 80q0 66-47 113t-113 47v80h-80v-80h-80v80h-80Zm40-400h160q33 0 56.5-23.5T640-600q0-33-23.5-56.5T560-680H400v160Zm0 240h200q33 0 56.5-23.5T680-360q0-33-23.5-56.5T600-440H400v160Z"/></svg>
+          <a class="nav-link mt-3 w-50 text-center fw-bold" href="#">Build the largest and most reliable platform</a>
+        </div>
+        <div class="card p-3 ms-3 me-3 border-0" id="align">
+          <svg xmlns="http://www.w3.org/2000/svg" height="70px" viewBox="0 -960 960 960" width="70px" fill="rgb(136, 136, 21)"><path d="M756-120 537-339l84-84 219 219-84 84Zm-552 0-84-84 276-276-68-68-28 28-51-51v82l-28 28-121-121 28-28h82l-50-50 142-142q20-20 43-29t47-9q24 0 47 9t43 29l-92 92 50 50-28 28 68 68 90-90q-4-11-6.5-23t-2.5-24q0-59 40.5-99.5T701-841q15 0 28.5 3t27.5 9l-99 99 72 72 99-99q7 14 9.5 27.5T841-701q0 59-40.5 99.5T701-561q-12 0-24-2t-23-7L204-120Z"/></svg>
+          <a class="nav-link mt-3 w-50 text-center fw-bold" href="#">Drive industry leading connectivity operation</a>
+        </div>
+        <div class="card p-3 ms-3 me-3 border-0" id="align">
+          <svg xmlns="http://www.w3.org/2000/svg" height="70px" viewBox="0 -960 960 960" width="70px" fill="#5f6368"><path d="M120-120v-80l80-80v160h-80Zm160 0v-240l80-80v320h-80Zm160 0v-320l80 81v239h-80Zm160 0v-239l80-80v319h-80Zm160 0v-400l80-80v480h-80ZM120-327v-113l280-280 160 160 280-280v113L560-447 400-607 120-327Z"/></svg>
+          <a class="nav-link mt-3 w-75 text-center fw-bold" href="#">Create shared value</a>
+        </div>
+        <div class="card p-3 ms-3 me-3 border-0" id="align">
+          <svg xmlns="http://www.w3.org/2000/svg" height="70px" viewBox="0 -960 960 960" width="70px" fill="rgb(134, 228, 47)"><path d="m480-400-80-80 80-80 80 80-80 80Zm-85-235L295-735l185-185 185 185-100 100-85-85-85 85ZM225-295 40-480l185-185 100 100-85 85 85 85-100 100Zm510 0L635-395l85-85-85-85 100-100 185 185-185 185ZM480-40 295-225l100-100 85 85 85-85 100 100L480-40Z"/></svg>
+          <a class="nav-link mt-3 w-75 text-center fw-bold" href="#">Accelarate Portfolio Trasformation</a>
+        </div>
+      </div>
+    </div>
+    <!---------------------------OUR STRATEGY RESOLUTION------------------>
+   <div id="carouselExampleInterval" class="carouOff carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner" id="growthReso">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <div class="d-flex justify-content-evenly">
+          <div class="card p-3 ms-3 me-3 border-0" id="align" >
+            <svg xmlns="http://www.w3.org/2000/svg" height="120px" viewBox="0 -960 960 960" width="120px" fill="rgb(51, 51, 158)"><path d="M360-120v-80H240v-80h80v-400h-80v-80h120v-80h80v80h80v-80h80v85q52 14 86 56.5t34 98.5q0 29-10 55.5T682-497q35 21 56.5 57t21.5 80q0 66-47 113t-113 47v80h-80v-80h-80v80h-80Zm40-400h160q33 0 56.5-23.5T640-600q0-33-23.5-56.5T560-680H400v160Zm0 240h200q33 0 56.5-23.5T680-360q0-33-23.5-56.5T600-440H400v160Z"/></svg>
+            <a class="nav-link mt-3 w-50 text-center fw-bold" href="#">Build the largest and most reliable platform</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <div class="d-flex justify-content-evenly">
+          <div class="card p-3 ms-3 me-3 border-0" id="align">
+            <svg xmlns="http://www.w3.org/2000/svg" height="120px" viewBox="0 -960 960 960" width="120px" fill="rgb(136, 136, 21)"><path d="M756-120 537-339l84-84 219 219-84 84Zm-552 0-84-84 276-276-68-68-28 28-51-51v82l-28 28-121-121 28-28h82l-50-50 142-142q20-20 43-29t47-9q24 0 47 9t43 29l-92 92 50 50-28 28 68 68 90-90q-4-11-6.5-23t-2.5-24q0-59 40.5-99.5T701-841q15 0 28.5 3t27.5 9l-99 99 72 72 99-99q7 14 9.5 27.5T841-701q0 59-40.5 99.5T701-561q-12 0-24-2t-23-7L204-120Z"/></svg>
+            <a class="nav-link mt-3 w-50 text-center fw-bold" href="#">Drive industry leading connectivity operation</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-flex justify-content-evenly">
+          <div class="card p-3 ms-3 me-3 border-0" id="align">
+            <svg xmlns="http://www.w3.org/2000/svg" height="120px" viewBox="0 -960 960 960" width="120px" fill="#5f6368"><path d="M120-120v-80l80-80v160h-80Zm160 0v-240l80-80v320h-80Zm160 0v-320l80 81v239h-80Zm160 0v-239l80-80v319h-80Zm160 0v-400l80-80v480h-80ZM120-327v-113l280-280 160 160 280-280v113L560-447 400-607 120-327Z"/></svg>
+            <a class="nav-link mt-3 w-75 text-center fw-bold" href="#">Create shared value</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-flex justify-content-evenly">
+          <div class="card p-3 ms-3 me-3 border-0" id="align">
+            <svg xmlns="http://www.w3.org/2000/svg" height="120px" viewBox="0 -960 960 960" width="120px" fill="rgb(134, 228, 47)"><path d="m480-400-80-80 80-80 80 80-80 80Zm-85-235L295-735l185-185 185 185-100 100-85-85-85 85ZM225-295 40-480l185-185 100 100-85 85 85 85-100 100Zm510 0L635-395l85-85-85-85 100-100 185 185-185 185ZM480-40 295-225l100-100 85 85 85-85 100 100L480-40Z"/></svg>
+            <a class="nav-link mt-3 w-75 text-center fw-bold" href="#">Accelarate Portfolio Trasformation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev text-dark" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon bg-dark rounded-circle " aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- <div class="image-container">
+    <img src="../Image/Coperate man.jpg" alt="Description of the image">
+  </div> -->
+
+  <!--------------FOOTER----------------------------->
+  <div class="card pt-5 bg-dark mt-5" id="footer1">
+    <div class="d-flex justify-content-end me-5">
+      <a class="nav-link" href="#"><img src="../Image/mtn-logoo.png" style="width: 5rem;" alt="Mtn logo"></a>
+    </div>
+    <div class="d-flex justify-content-evenly" id="d-flex">
+      <div class="card p-3 bg-dark border-0">
+        <a class="nav-link mt-3 text-white fw-bold" href="#">About</a>
+        <a class="nav-link mt-3 text-white" href="#">Overview</a>
+        <a class="nav-link mt-3 text-white" href="#">Growth Platform</a>
+        <a class="nav-link mt-3 text-white" href="#">Governance Structure</a>
+        <a class="nav-link mt-3 text-white" href="#">Board of Directors </a>
+        <a class="nav-link mt-3 text-white" href="#">Executive Committee</a>
+      </div>
+      <div class="card p-3 bg-dark border-0">
+        <a class="nav-link mt-3 text-white fw-bold" href="#">Sustainerbility</a>
+        <a class="nav-link mt-3 text-white" href="#">Overview</a>
+        <a class="nav-link mt-3 text-white" href="#">Doing the Planet</a>
+        <a class="nav-link mt-3 text-white" href="#">Doing for People</a>
+        <a class="nav-link mt-3 text-white" href="#">Doing it right </a>
+        <a class="nav-link mt-3 text-white" href="#">Doing for growth</a>
+        <a class="nav-link mt-3 text-white" href="#">Possitiong and certification </a>
+        <a class="nav-link mt-3 text-white" href="#">Reports</a>
+      </div>
+      <div class="card p-3 bg-dark border-0">
+        <a class="nav-link mt-3 text-white fw-bold" href="#">Investors</a>
+        <a class="nav-link mt-3 text-white" href="#">Finacial Results</a>
+        <a class="nav-link mt-3 text-white" href="#">Annual Reports</a>
+        <a class="nav-link mt-3 text-white" href="#">Shareholder</a>
+        <a class="nav-link mt-3 text-white" href="#">Opco Investors </a>
+        <a class="nav-link mt-3 text-white" href="#">SENS</a>
+        <a class="nav-link mt-3 text-white" href="#">Opco Investors </a>
+        <a class="nav-link mt-3 text-white" href="#">Capital Market Day</a>
+        <a class="nav-link mt-3 text-white" href="#">Zakhele Futhi</a>
+      </div>
+      <div class="card p-3 bg-dark border-0">
+        <a class="nav-link mt-3 text-white fw-bold" href="#">Newsroom</a>
+        <a class="nav-link mt-3 text-white" href="#">Overview</a>
+        <a class="nav-link mt-3 text-white" href="#">Media Releases</a>
+        <a class="nav-link mt-3 text-white" href="#">Campaigns</a>
+        <a class="nav-link mt-3 text-white" href="#">Sportlight Stories</a>
+        <a class="nav-link mt-3 text-white" href="#">Events</a>
+      </div>
+      <div class="card p-3 bg-dark border-0">
+        <a class="nav-link mt-3 text-white fw-bold" href="#">People & Culture</a>
+        <a class="nav-link mt-3 text-white" href="#">Overview</a>
+        <a class="nav-link mt-3 text-white" href="#">We live inspired</a>
+        <a class="nav-link mt-3 text-white" href="#">We love Y'ello</a>
+        <a class="nav-link mt-3 text-white" href="#">Join Our Y'ello Family</a>
+        <a class="nav-link mt-3 text-white" href="#">Our Inspiration</a>
+      </div>
+      <div class="card p-3 bg-dark border-0">
+        <a class="nav-link mt-3 text-white fw-bold" href="#">Legal</a>
+        <a class="nav-link mt-3 text-white" href="#">Term & Condition</a>
+        <a class="nav-link mt-3 text-white" href="#">Privacy Policy</a>
+        <a class="nav-link mt-3 text-white" href="#">Cookie Policy</a>
+        <a class="nav-link mt-3 text-white" href="#">MTN Privacy Notice</a>
+        <a class="nav-link mt-3 text-white" href="#">PAIA</a>
+      </div>
+    </div>
+    <hr class="text-white m-5">
+    <div class="d-flex justify-content-evenly p-5" id="d-flex">
+      <div class="card border-0 bg-dark">
+        <p class="text-white">© 2024 MTN Group Management Services (Pty) Ltd, All rights reserved.</p>
+      </div>
+      <div class="card border-0 bg-dark">
+        <div class="d-flex justify-content-evenly">
+          <a class="nav-link text-warning fw-bold m-2" href="#"> TWITTER </a>
+          <a class="nav-link text-warning fw-bold m-2" href="#"> LINKEDIN </a>
+          <a class="nav-link text-warning fw-bold m-2" href="#"> YOUTUBE </a>
+        </div>
+      </div>
+    </div>
+   </div>
+
+
+   <div class="position-fixed bottom-0 end-0 mb-3 me-3" id="stroll">
+    <a href="#" class="btn btn-warning bg-warning rounded-circle p-3 " id="strollUp"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="m296-224-56-56 240-240 240 240-56 56-184-183-184 183Zm0-240-56-56 240-240 240 240-56 56-184-183-184 183Z"/></svg></a>
+   </div>
+   <!--------------FOOTER 2 FOR RESOLUTION----------------------------->
+   <div class="card pt-5 bg-dark mt-5" id="footer2">
+    <div class="card bg-dark m-3 border-0">
+      <div class="d-flex justify-content-end me-5">
+        <a class="nav-link" href="#"><img src="../Image/mtn-logoo.png" style="width: 5rem;" alt="Mtn logo"></a>
+      </div>
+      <div class="dropdown">
+        <a class="btn text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="footerDropdown">
+          About <svg class="dropSVG1" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="M480-360 280-560h400L480-360Z"/></svg>
+        </a>
+      
+        <ul class="dropdown-menu" id="drpDown">
+          <li><a class="dropdown-item" href="#">Overview</a></li>
+          <li><a class="dropdown-item" href="#">Growth Structure</a></li>
+          <li><a class="dropdown-item" href="#">Governance Structure</a></li>
+          <li><a class="dropdown-item" href="#">Board of Directors</a></li>
+          <li><a class="dropdown-item" href="#">Executive Committee</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <a class="btn text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="footerDropdown">
+          Sustainerbility <svg class="dropSVG2" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="M480-360 280-560h400L480-360Z"/></svg>
+        </a>
+      
+        <ul class="dropdown-menu" id="drpDown">
+          <li><a class="dropdown-item" href="#">Overview</a></li>
+          <li><a class="dropdown-item" href="#">Doing the Planet</a></li>
+          <li><a class="dropdown-item" href="#">Doing for People</a></li>
+          <li><a class="dropdown-item" href="#">Doing it right</a></li>
+          <li><a class="dropdown-item" href="#">Doing for growth</a></li>
+          <li><a class="dropdown-item" href="#">Possitiong and certification</a></li>
+          <li><a class="dropdown-item" href="#">Reports</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <a class="btn text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="footerDropdown">
+          Investors <svg class="dropSVG3" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="M480-360 280-560h400L480-360Z"/></svg>
+        </a>
+      
+        <ul class="dropdown-menu" id="drpDown">
+          <li><a class="dropdown-item" href="#">Finacial Results</a></li>
+          <li><a class="dropdown-item" href="#">Annual Reports</a></li>
+          <li><a class="dropdown-item" href="#">Shareholder</a></li>
+          <li><a class="dropdown-item" href="#">Opco Investors</li>
+          <li><a class="dropdown-item" href="#">SENS</a></li>
+          <li><a class="dropdown-item" href="#">Capital Market Day</a></li>
+          <li><a class="dropdown-item" href="#">Zakhele Futhi</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <a class="btn text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="footerDropdown">
+          Newsroom <svg class="dropSVG4" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="M480-360 280-560h400L480-360Z"/></svg>
+        </a>
+      
+        <ul class="dropdown-menu" id="drpDown">
+          <li><a class="dropdown-item" href="#">Overview</a></li>
+          <li><a class="dropdown-item" href="#">Media Releases</a></li>
+          <li><a class="dropdown-item" href="#">Campaigns</a></li>
+          <li><a class="dropdown-item" href="#">Sportlight Stories</li>
+          <li><a class="dropdown-item" href="#">Events</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <a class="btn text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="footerDropdown">
+          People & Culture <svg class="dropSVG5" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="M480-360 280-560h400L480-360Z"/></svg>
+        </a>
+      
+        <ul class="dropdown-menu" id="drpDown">
+          <li><a class="dropdown-item" href="#">Overview</a></li>
+          <li><a class="dropdown-item" href="#">We live inspired</a></li>
+          <li><a class="dropdown-item" href="#">We love Y'ello</a></li>
+          <li><a class="dropdown-item" href="#">Join Our Y'ello Family</li>
+          <li><a class="dropdown-item" href="#">Our Inspiration</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <a class="btn text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="footerDropdown">
+          Legal <svg class="dropSVG6" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="M480-360 280-560h400L480-360Z"/></svg>
+        </a>
+      
+        <ul class="dropdown-menu" id="drpDown">
+          <li><a class="dropdown-item" href="#">Term & Condition</a></li>
+          <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
+          <li><a class="dropdown-item" href="#">Cookie Policy</a></li>
+          <li><a class="dropdown-item" href="#">MTN Privacy Notice</li>
+          <li><a class="dropdown-item" href="#">PAIA</a></li>
+        </ul>
+      </div>
+      
+    <hr class="text-white m-5">
+    <div class="d-flex justify-content-evenly p-5" id="d-flex">
+      <div class="card border-0 bg-dark">
+        <p class="text-white">© 2024 MTN Group Management Services (Pty) Ltd, All rights reserved.</p>
+      </div>
+      <div class="card border-0 bg-dark">
+        <div class="d-flex justify-content-start">
+          <a class="nav-link text-warning fw-bold m-2" href="#"> TWITTER </a>
+          <a class="nav-link text-warning fw-bold m-2" href="#"> LINKEDIN </a>
+          <a class="nav-link text-warning fw-bold m-2" href="#"> YOUTUBE </a>
+        </div>
+      </div>
+    </div>
+   </div>
+
+
+   
+</body>
+</html>

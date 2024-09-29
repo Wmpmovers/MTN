@@ -1,0 +1,467 @@
+#shadow1{
+  box-shadow: 5px 5px 10px black;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+@media (max-width: 470px){
+  #shadow1{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #under{
+    display: none;
+  }
+}
+#menuOff{
+  display: none;
+}
+@media (max-width: 470px){
+  #menuOff{
+    display: block;
+  }
+}
+#offcanvasScrolling{
+  display: none;
+}
+@media (max-width: 470px){
+  #offcanvasScrolling{
+    display: block;
+  }
+}
+
+.menuDrop1{
+  margin-left: 85px;
+}
+.menuDrop2{
+  margin-left: 30px;
+}
+.menuDrop3{
+  margin-left: 65px;
+}
+.menuDrop4{
+  margin-left: 88px;
+}
+.menuDrop5{
+  margin-left: 15px;
+}
+
+/************ABOUT US DROP DOWN*******/
+.dropSVGA{
+  margin-left: 30px;
+}
+.dropSVGB{
+  margin-left: 60px;
+}
+#aGrowth{
+  margin-left: 5px;
+}
+@media (max-width: 470px){
+  #aGrowth{
+  margin-left: 11px;
+}
+}
+#tran{
+  background-color: #f1f1f100;
+}
+.nav-item{
+  position: relative;
+  display: inline-block;
+  margin-left: 40px;
+}
+#dropdown-content{
+  width: 78rem;
+  margin-left: -187px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+} 
+.dropdown:hover #dropdown-content {
+  display: block;
+}
+
+#tran2{
+  margin-top: -35px;
+  background-color: #f1f1f100;
+}
+/******HOVER ON SUSTAINABILITY */
+#aboutBorder2:hover{
+  border-bottom: 3px solid black;
+}
+.nav-item{
+  position: relative;
+  display: inline-block;
+  margin-left: 40px;
+}
+#dropdown-content2{
+  width: 78rem;
+  margin-left: -325px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown:hover #dropdown-content2 {
+  display: block;
+  transition: .5s;
+}
+#aSustain{
+  margin-left: 5px;
+}
+.dropSVGA1{
+  margin-left: 27px;
+}
+.dropSVGA2{
+  margin-left: 25px;
+}
+.dropSVGA3{
+  margin-left: 61px;
+}
+.dropSVGA4{
+  margin-left: 110px;
+}
+.dropSVGA5{
+  margin-left: 0px;
+}
+
+/******HOVER ON INVESTOR */
+#tran3{
+  margin-top: -30px;
+  background-color: #f1f1f100;
+}
+.nav-item{
+  position: relative;
+  display: inline-block;
+  margin-left: 40px;
+}
+#dropdown-content3{
+  width: 78rem;
+  margin-left: -492px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown:hover #dropdown-content3 {
+  display: block;
+  transition: .5s;
+}
+.dropSVGA6{
+  margin-left: 30px;
+}
+.dropSVGA7{
+  margin-left: 35px;
+}
+.dropSVGA8{
+  margin-left: 45px;
+}
+/******NEWS ON HOVER */
+#tran4{
+  margin-top: -30px;
+  background-color: #f1f1f100;
+}
+.nav-item{
+  position: relative;
+  display: inline-block;
+  margin-left: 40px;
+}
+#dropdown-content4{
+  width: 78rem;
+  margin-left: -630px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown:hover #dropdown-content4 {
+  display: block;
+  transition: .5s;
+}
+
+/******PEOPLE & CULTURE ON HOVER */
+#tran5{
+  margin-top: -30px;
+  background-color: #f1f1f100;
+}
+.nav-item{
+  position: relative;
+  display: inline-block;
+  margin-left: 40px;
+}
+#dropdown-content5{
+  width: 78rem;
+  margin-left: -742px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown:hover #dropdown-content5 {
+  display: block;
+  transition: .5s;
+}
+
+/* *****SEARCH ON HOVER */
+#menuSearch{
+  margin-left: 250px;
+}
+.search{
+  position: relative;
+  display: inline-block;
+}
+.searchIcon{
+  border-radius: 10px;
+  margin-top: -30px;
+  margin-left: -210px;
+  width: 15rem;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.search:hover .searchIcon {
+  display: block;
+  transition: .5s;
+}
+/******WORLD ON HOVER */
+#aboutBorder1:hover{
+  border-bottom: 3px solid black;
+}
+#aboutBorder1{
+  margin-left: -30px;
+}
+.nav-item{
+  position: relative;
+  display: inline-block;
+  margin-left: 40px;
+}
+#dropdown-content6{
+  width: 79rem;
+  margin-left: -1220px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+#dropdown-content6 a:hover {
+  border-radius: 10px;
+  background-color: rgb(212, 210, 210);
+}
+.dropdown:hover #dropdown-content6 {
+  display: block;
+  transition: .5s;
+}
+
+
+/************FIRST CONTAINER DIGITAL */
+  #firstFintech{
+    background-image: url(../Image/Mtn\ digital.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #firstFinCard{
+    margin-top: 150px;
+    margin-left: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    margin-bottom: 100px;
+  }
+  @media (max-width: 470px){
+    #firstFinCard{
+      margin-left: 20px;
+    }
+  }
+  .finSo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  #digital h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  @media (max-width: 470px){
+    #digital h1{
+      font-size: 35px;
+    }
+    .fw-normal{
+        text-align: justify;
+      }
+  }
+
+
+  /********MTN RECOGNISE*******/
+#treeImag{
+    background-image: url(../Image/Celebration.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+  }
+  #sportlight{
+    margin-top: -50px;
+    border-radius: 25px;
+    border-bottom: 4px solid yellow;
+  }
+  .readMore:hover{
+    margin-left: 10px;
+    transition: .5s;
+  }
+  .coperateImg{
+    border-radius: 25px;
+  }
+  #media{
+    margin-top: 50px;
+    margin-left: -50px;
+    border-radius: 25px;
+    border-bottom: 4px solid yellow;
+  }
+  .firstcardOff{
+    display: none;
+  }
+  #d-flex{
+    flex-wrap: wrap;
+  }
+  @media (max-width: 470px){
+    #media{
+      margin-top: -50px;
+    }
+    .firstcardOff{
+    display: block;
+  }
+    #mtnRegOff{
+    display: none;
+    }
+  }
+  #view{
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+  }
+  #view:hover{
+    color: black;
+    background-color: rgb(146, 144, 144);
+  }
+
+   /*********OUR GROWTH*******/
+.carouOff{
+  display: none;
+}
+#flexOff{
+  flex-wrap: wrap;
+}
+#align{
+  align-items: center;
+}
+@media (max-width: 470px){
+  #flexOff{
+    display: none;
+  }
+  .carouOff{
+    display: block;
+  }
+}
+  /*********FOR IMAGE ZOOMING***/
+ .image-container {
+  overflow: hidden; /* Ensures the image doesn't overflow the container */
+  position: relative;
+}
+
+.image-container #treeImag {
+  width: 100%;     /* Makes the image responsive */
+  height: auto;    /* Keeps the aspect ratio */
+  transition: transform 0.5s ease; /* Smooth transition */
+}
+
+.image-container:hover #treeImag {
+  transform: scale(1.2); /* Zoom in on hover */
+}
+
+
+/*********FOR IMAGE ZOOMING RESOLUTION***/
+ .image-container {
+  overflow: hidden; /* Ensures the image doesn't overflow the container */
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;     /* Makes the image responsive */
+  height: auto;    /* Keeps the aspect ratio */
+  transition: transform 0.5s ease; /* Smooth transition */
+}
+
+.image-container:hover img {
+  transform: scale(1.2); /* Zoom in on hover */
+}
+  
+  #digital1 h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    font-weight: bold;
+  }
+  @media (max-width: 470px){
+    #digital1 h1{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 40px;
+      font-weight: bold;
+    }
+  }
+
+
+  /**********FOOTER**********/
+#footerDropdown{
+    font-size: 17px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    border: 1px solid white;
+    margin-top: 20px;
+  }
+  .dropSVG1{
+    margin-left: 270px;
+  }
+  .dropSVG2{
+    margin-left: 213px;
+  }
+  .dropSVG3{
+    margin-left: 250px;
+  }
+  .dropSVG4{
+    margin-left: 240px;
+  }
+  .dropSVG5{
+    margin-left: 190px;
+  }
+  .dropSVG6{
+    margin-left: 280px;
+  }
+  #drpDown{
+    width: 23rem;
+  }
+  #footer2{
+    display: none;
+  }
+  @media (max-width: 470px){
+    #footer2{
+      display: block;
+      border-top-right-radius: 30px;
+      border-top-left-radius: 30px;
+    }
+    #footer1{
+      display: none;
+    }
+  }
+  
+  #strollUp{
+    box-shadow: 2px 2px 4px black;
+  }
+  #stroll{
+    z-index: 1;
+  }
